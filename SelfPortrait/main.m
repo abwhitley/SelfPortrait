@@ -7,11 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Selfie.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Selfie *someSelfie = [Selfie new];
+        [someSelfie setName : @"Austin" ];
+        [someSelfie setAge : 22];
+        [someSelfie setInterests:@[
+                                   @"fishing",
+                                   @"mixing",
+                                   @"reddit"
+                                   ]];
+        [someSelfie setHairColor:@"brown"];
+        NSLog(@"%@", someSelfie);
     }
     return 0;
 }

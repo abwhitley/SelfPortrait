@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E9C641561D638E1200F0E388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C641551D638E1200F0E388 /* main.m */; };
+		E9C6415E1D638E8F00F0E388 /* Selfie.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C6415D1D638E8F00F0E388 /* Selfie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E9C641521D638E1200F0E388 /* SelfPortrait */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SelfPortrait; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C641551D638E1200F0E388 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9C6415C1D638E8F00F0E388 /* Selfie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Selfie.h; sourceTree = "<group>"; };
+		E9C6415D1D638E8F00F0E388 /* Selfie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Selfie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E9C641551D638E1200F0E388 /* main.m */,
+				E9C6415C1D638E8F00F0E388 /* Selfie.h */,
+				E9C6415D1D638E8F00F0E388 /* Selfie.m */,
 			);
 			path = SelfPortrait;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9C641561D638E1200F0E388 /* main.m in Sources */,
+				E9C6415E1D638E8F00F0E388 /* Selfie.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
