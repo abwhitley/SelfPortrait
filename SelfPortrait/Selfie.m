@@ -44,10 +44,7 @@
 
 -(NSString *)description{
     
-    return [NSString stringWithFormat: @"My name is %@", [self name]];
-    return [NSString stringWithFormat: @"I am %@ years old", @([self age])];
-    return [NSString stringWithFormat: @"My interests include %@", [self interests]];
-    return [NSString stringWithFormat: @"My hair color is %@", [self hairColor]];
+    return [NSString stringWithFormat: @"My name is %@ I am %@ years old My interests include %@ My hair color is %@", [self name],@([self age]), [self interests], [self hairColor]];
     
     }
 
